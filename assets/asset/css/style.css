@@ -164,6 +164,7 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+}
 
     /* Main content */
     main {
@@ -237,7 +238,27 @@ main {
             align-items: center;
             justify-content: center;
         }
-
+    }
+                /*Meet-up Times*/
+                #times{
+                    background: url("../images/dublin-city.webp") no-repeat center/cover;
+                    /* Handles responsivity without the need for a media query */
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                #times div {
+                    color: #fafafa;
+                   background-color: rgba(0, 0, 0, .6);
+                    padding: 15px;
+                    text-align: center;
+                    flex-basis: 200px;
+                    flex-grow: 1;
+                    border: 2px solid white;
+                }
+                #times h3 {
+                    color:#fafafa;
+                }
+        
         /* Large devices (laptops and desktops, 992px and up) */
         @media screen and (min-width: 992px) {
             #menu a:hover {
@@ -245,7 +266,7 @@ main {
             }
         }
 
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1200px){ 
 
             /* Reasons section */
             #benefits {
@@ -270,6 +291,5 @@ main {
             }
 
             #benefits-physical>div {
-                align-self: flex-end;
-            }
-        }
+                align-self: flex-end;}
+}
