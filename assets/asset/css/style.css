@@ -240,7 +240,7 @@ main {
         /* Enable flex properties for child elements */
         display: flex;
         flex-direction: column;
-        
+        }
             /* Hero */
             #cover-text {
                 width: 300px;
@@ -351,7 +351,7 @@ main {
         background-color: #fafafa;
         color: #454b1b;
     }
-}
+
 
         /* Large devices (laptops and desktops, 992px and up) */
         @media screen and (min-width: 992px) {
